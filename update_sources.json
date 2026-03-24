@@ -1,0 +1,14 @@
+{
+  "sources": [
+    {
+      "name": "Google News - 体教融合",
+      "type": "rss",
+      "url": "https://news.google.com/rss/search?q=%E4%BD%93%E6%95%99%E8%9E%8D%E5%90%88&hl=zh-CN&gl=CN&ceid=CN:zh-Hans"
+    },
+    {
+      "name": "Google News - 体育单招 语文",
+      "type": "rss",
+      "url": "https://news.google.com/rss/search?q=%E4%BD%93%E8%82%B2%E5%8D%95%E6%8B%9B+%E8%AF%AD%E6%96%87&hl=zh-CN&gl=CN&ceid=CN:zh-Hans"
+    }
+  ]
+}
