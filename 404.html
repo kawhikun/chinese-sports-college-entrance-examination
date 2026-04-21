@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+<meta http-equiv="Content-Security-Policy" content="default-src 'self' data: blob:; img-src 'self' data: blob:; media-src 'self' data: blob:; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline'; connect-src 'self' data: blob:; object-src 'none'; base-uri 'self'; form-action 'self'" />
+<title>体育单招系统 v6 | 页面导航</title>
+<style>
+:root{--bg:#f4f7fb;--card:#fff;--line:#e6edf5;--text:#102033;--muted:#62748a;--primary:#123a64;--primary2:#1d5b96;--soft:#f8fbff;--good:#ecfdf3;--goodline:#93e2ae;--warn:#fff8e6;--shadow:0 12px 30px rgba(16,32,51,.07)}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Microsoft YaHei',sans-serif}
+.wrap{max-width:1280px;margin:0 auto;padding:18px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:24px;box-shadow:var(--shadow);padding:20px}
+.hero{background:linear-gradient(135deg,#fff 0%,#f8fbff 55%,#eef4fb 100%)}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:18px}.grid3{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}@media(max-width:980px){.grid2,.grid3{grid-template-columns:1fr}}
+.row{display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+.btn{display:inline-flex;align-items:center;gap:8px;padding:10px 14px;border-radius:999px;border:1px solid var(--line);background:#fff;color:var(--text);text-decoration:none;cursor:pointer}
+.btn.primary{background:var(--primary);color:#fff;border-color:var(--primary)}
+.small{font-size:13px;color:var(--muted)} .muted{color:var(--muted)}
+.list{margin:0;padding-left:18px;line-height:1.8}
+.kv{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px}@media(max-width:980px){.kv{grid-template-columns:repeat(2,minmax(0,1fr))}}
+.stat{background:#fff;border:1px solid var(--line);border-radius:18px;padding:14px;text-align:center}.stat strong{display:block;font-size:24px}
+.table{width:100%;border-collapse:collapse}.table td,.table th{border-bottom:1px solid var(--line);padding:10px 12px;text-align:left}.table th{background:#f8fbff}
+.badge{display:inline-flex;align-items:center;padding:6px 10px;border-radius:999px;background:#eef5ff;border:1px solid #d8e8fb;color:var(--primary);font-size:12px;font-weight:700}
+.img-card img{display:block;width:100%;height:260px;object-fit:contain;background:#fff;border:1px solid var(--line);border-radius:18px}
+textarea,input,select{width:100%;border:1px solid var(--line);background:#fff;border-radius:16px;padding:12px 14px;color:var(--text);font:inherit}
+.option{display:block;width:100%;text-align:left;border:1px solid var(--line);background:#fff;border-radius:16px;padding:12px 14px;margin-top:10px;cursor:pointer}
+.option.correct{background:var(--good);border-color:var(--goodline)}
+.option.wrong{background:#fff1f2;border-color:#f7a8b8}
+.preview{white-space:pre-wrap;line-height:1.8;background:var(--soft);border:1px solid var(--line);border-radius:18px;padding:14px}
+</style>
+
+</head>
+<body>
+
+<div class="wrap">
+  <section class="card hero">
+    <div class="badge">体育单招系统 v6</div>
+    <h1 style="margin:12px 0 8px">核心页 + 规划页都给你放在这了</h1>
+    <p class="muted">这版不再是“只有一个 html”。富题库核心页和备考规划页同时保留，而且没有 accounts.json 时也能自动进入公开模式。</p>
+    <div class="row" style="margin-top:14px">
+      <a class="btn primary" href="./index.html">总览</a>
+      <a class="btn" href="./knowledge.html">知识库</a>
+      <a class="btn" href="./practice.html">分题练习</a>
+      <a class="btn" href="./paper.html">整卷模拟</a>
+      <a class="btn" href="./writing.html">写作强化</a>
+      <a class="btn" href="./review.html">复盘更新</a>
+      <a class="btn" href="./roadmap.html">备考路线</a>
+      <a class="btn" href="./training.html">训练规划</a>
+      <a class="btn" href="./application.html">报考管理</a>
+      <a class="btn" href="./data.html">数据中心</a>
+      <a class="btn" href="./random.html">随机工具</a>
+    </div>
+  </section>
+</div>
+
+</body>
+</html>

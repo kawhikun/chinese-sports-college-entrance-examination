@@ -1,0 +1,3 @@
+Sports Recruit System v6 FullMax Hybrid Build
+Build: 2026-04-21
+Highlights: rich encrypted bank core cloned into multi-entry pages / public fallback without accounts.json / planner pages preserved / root flattened
